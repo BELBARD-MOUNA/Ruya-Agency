@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruya Travel - Tours</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+        }
+        .tour-card {
+            background-color: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+            overflow: hidden;
+            transition: transform 0.3s ease-in-out;
+        }
+        .tour-card:hover {
+            transform: translateY(-10px);
+        }
+        .tour-img {
+            height: 200px;
+            object-fit: cover;
+        }
+        .tour-content {
+            padding: 20px;
+        }
+        .total-budget {
+            font-weight: bold;
+            color: #007BFF;
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Ruya Travel</a>
+    <div class="collapse navbar-collapse">
+        <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="destinations.html">Destinations</a></li>
+            <li class="nav-item active"><a class="nav-link" href="tours.html">Tours</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="tour-card">
+                <img src="bali.jpg" class="tour-img w-100" alt="Bali">
+                <div class="tour-content">
+                    <h3>Bali's Stunning Beaches</h3>
+                    <p>Experience vibrant beaches, surfing, and nightlife.</p>
+                    <p>Flight: $500 | Hotel: $700 | Activities: $300 | Guide: $300</p>
+                    <p class="total-budget">Total Budget: $1800</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="tour-card">
+                <img src="greece.jpg" class="tour-img w-100" alt="Greece">
+                <div class="tour-content">
+                    <h3>Greece's Magical Islands</h3>
+                    <p>Discover crystal-clear waters and charming villages.</p>
+                    <p>Flight: $600 | Hotel: $800 | Activities: $400 | Guide: $200</p>
+                    <p class="total-budget">Total Budget: $2000</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="tour-card">
+                <img src="amalfi.jpg" class="tour-img w-100" alt="Amalfi Coast">
+                <div class="tour-content">
+                    <h3>Italy's Amalfi Coast</h3>
+                    <p>Explore dramatic cliffs and colorful villages.</p>
+                    <p>Flight: $700 | Hotel: $900 | Activities: $400 | Guide: $200</p>
+                    <p class="total-budget">Total Budget: $2200</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        <div class="col-md-4">
+            <div class="tour-card">
+                <img src="milano.jpg" class="tour-img w-100" alt="Milano">
+                <div class="tour-content">
+                    <h3>Italy's Milano</h3>
+                    <p>Fashion capital with rich culture.</p>
+                    <p>Flight: $600 | Hotel: $800 | Activities: $300 | Guide: $200</p>
+                    <p class="total-budget">Total Budget: $1700</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="tour-card">
+                <img src="trabzon.jpg" class="tour-img w-100" alt="Trabzon">
+                <div class="tour-content">
+                    <h3>Trabzon, Turkey</h3>
+                    <p>Discover lush landscapes and history.</p>
+                    <p>Flight: $400 | Hotel: $600 | Activities: $200 | Guide: $200</p>
+                    <p class="total-budget">Total Budget: $1200</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="tour-card">
+                <img src="maldives.jpg" class="tour-img w-100" alt="Maldives">
+                <div class="tour-content">
+                    <h3>Maldives Paradise</h3>
+                    <p>Relax in a tropical paradise.</p>
+                    <p>Flight: $900 | Hotel: $1200 | Activities: $400 | Guide: $200</p>
+                    <p class="total-budget">Total Budget: $2500</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="text-center py-4 bg-light mt-4">
+    © 2024 Ruya Travel | <a href="#">ruyatravel.com</a>
+</footer>
+
+</body>
+</html>
